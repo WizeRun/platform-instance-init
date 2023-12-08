@@ -1,0 +1,9 @@
+[provider.exoscale]
+api_key = "<exoscale-api-key>"
+api_secret = "<exoscale-api-secret>"
+
+[host.user.root.ssh]
+authorized_keys = [
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHRe4Uy0isnO8ttEFEoPXjmcky4Uq0P1hWyd8Za6gQ9j",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDIYzKtL73Wfg8Nil2wYKFdUFJK7K+e2fhJWbvod94f40Cje8+7POBgjSnkQ4oX7lNWU9Rlqsk3ZA/ELAbS00I2LsMODlz9GOlzz9AMs2xKuiQGY17piV6ZcVaqidSy/oWcID9fpP4+5OemdPz/0/NrOrEXz8OZa6W1Ms8x+8mMJdt0mD/DNUC5U4NPe1wAo33awS5ESfTC7kR55UMNpNQnjnXxDX69YpnkayRwJ8DDe+Jvpr9LdLo6PwvQkczBk8Lqqt3P8C0qMDCfwpuayMXsz/Wn8+e+YAikJZA7g9rohcgf+mNS/vrWciZLhyEePZmctEtlj1lB+qNNo8o9PYAW6UKZKjuPqcz+KeMjnURE3t9jkSDTRgMZtiTNmXU89b/MxtmpFGTprptRjw3mzpVv2OdymxmwHaJ7E+f9T0n3XQ3fvtizlC7R02zhNtfcPq2smsvBAtzJy+HDG2osA4qn6FPAQjUKBfTLlPwKSCNi0mQnYCmRDYRmS82en/L+kH0="
+]
