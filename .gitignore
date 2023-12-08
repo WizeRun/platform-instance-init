@@ -1,3 +1,6 @@
 /.idea
 /target
 /configuration.toml
+/*.tar
+/*.log
+/*.rpm

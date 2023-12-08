@@ -1,0 +1,20 @@
+[Unit]
+Description=Instance-init job
+After=systemd-networkd.service
+After=dbus.service
+Before=sshd.service
+ConditionKernelCommandLine=!instance-init=disabled
+ConditionEnvironment=!KERNEL_CMDLINE=instance-init=disabled
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/instance-init
+RemainAfterExit=yes
+TimeoutSec=0
+
+# Output needs to appear in instance console output
+StandardOutput=journal+console
+
+[Install]
+WantedBy=default.target
+WantedBy=instance-init.target

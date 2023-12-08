@@ -1,0 +1,5 @@
+[Unit]
+Description=Instance-init target
+After=multi-user.target
+ConditionKernelCommandLine=!instance-init=disabled
+ConditionEnvironment=!KERNEL_CMDLINE=instance-init=disabled
